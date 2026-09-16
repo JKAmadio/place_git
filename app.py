@@ -1,4 +1,6 @@
 def saudacao(nome):
+    if not nome:
+        nome = "visitante"
     return f"Ola, {nome}!"
 
 
