@@ -1,2 +1,3 @@
 def aplicar_desconto(preco, percentual):
-    return preco - (preco * percentual / 100)
+    valor = preco - (preco * percentual / 100)
+    return round(valor, 2)
